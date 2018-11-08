@@ -1,0 +1,74 @@
+ 
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Форма</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+ <link href="css/common1.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <h1 p align="center"> Форма пользователя </h1>
+      <div class="container">
+      <div class="row">
+          <div class="col-md-1">
+          </div>
+            <div class="col-md-10">
+  <form role="form" method="POST" action="contact_process.php">
+  <div class="form-group">
+                            <label for="InputName">Имя</label>
+                           <input name="name" type="text" class="form-control" id="InputName" placeholder="Name">
+                           </div>
+                          <div class="form-group">
+                            <label for="InputSurname">Фамилия</label>
+                           <input name="surname" class="form-control" id="InputSurname" placeholder="Surname">
+                           </div>
+                          <div class="form-group">
+                            <label for="InputEmail1">Email</label>
+                           <input name="email" type="text" class="form-control" id="InputEmail1" placeholder="Enter email">
+                           </div>
+                          <div class="form-group">
+                            <label for="InputPhone">Телефон</label>
+                            <input name="phone" type="text" class="form-control" id="InputPhone" placeholder="Phone">
+                           </div>
+<div class="form-group">
+    <label for="exampleInputcountry">Страна</label>
+ <input name="country" class="form-control" id="Inputcountry" placeholder="country">
+                                      <select multiple class="form-control">
+                                              <option>Англия</option>
+                                                <option>Украина</option>
+                                              <option>Россия</option>
+                                                   <option>Германия</option>
+                                            <option>Франция</option>
+                                             <option>Польща</option>
+                                          <option>Израиль</option>
+</select>
+                                      </div>
+                         
+  <button type="submit" name="submit" class="btn btn-default" >Отправить</button>
+</form>
+                              
+</div>
+ <div class="col-md-1">
+ </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    <script type=""></script>
+  </body>
+</html>
+                              
